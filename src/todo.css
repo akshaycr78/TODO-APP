@@ -1,0 +1,213 @@
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2833(138, 123, 123);
+    /* background-image: url("https://images5.alphacoders.com/472/472494.jpg"); */
+    
+}
+.main1{
+    justify-content: center;
+    align-items: center;
+    width: 1535px;
+    height: 200px;
+    display: flex;
+    background-color: #000000;
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20241007/pngtree-green-grass-with-bokeh-background-close-up-grass-field-with-blurred-image_16308909.jpg" ); */
+
+}
+.input{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: black;
+    text-align: start;
+    padding-bottom: 25px;
+    border-radius: 30px;
+    box-shadow: 30px ;
+    flex-direction: row;
+}
+
+.heading{
+
+    /* background-image: url("https://images5.alphacoders.com/472/472494.jpg" );  */
+    font-size: 70px;
+    text-shadow: 30px;
+    color: #66FCF1;
+    background-color: whitesmoke;
+    width: 1535px;
+    display: flex;
+    justify-items:center;
+    justify-content:center;
+    /* padding-top: 20px; */
+    text-shadow: 4px 4px 4px;
+    background-color: #000000;
+    align-content: center;
+    font-family: serif;
+    
+    
+}
+#inp{
+    box-shadow: 5px 5px 8px #66FCF1;
+    border-radius: 10px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+#inp:hover{
+    box-shadow: 5px 5px 5px rgb(246, 6, 6) ;
+}
+
+
+#add{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border-color: #66FCF1;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #66FCF1;
+    font-size: medium;
+    
+}
+#add:hover{
+background-color: rgb(178, 167, 167);
+pointer-events: fill;
+box-shadow: 5px 5px 5px rgb(246, 6, 6) ;
+}
+#add:active{
+    transform: translateY(3px);
+}
+.map{
+    align-items: center;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    color: #66FCF1;
+    justify-content: center;
+
+}
+#save{
+    border-radius: 8px;
+    cursor: pointer;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: rgb(8, 10, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 3px 2px 2px #66FCF1;
+}
+#save:hover{
+    background-color: rgb(200, 195, 195);
+}
+#cancel{
+    border-radius: 8px;
+    cursor: pointer;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    box-shadow: 3px 2px 2px #66FCF1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#cancel:hover{
+    background-color: rgb(200, 195, 195);
+}
+#delete{
+    border-radius: 8px;
+    cursor: pointer;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    justify-content: space-around;
+    box-shadow: 3px 2px 2px #66FCF1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#delete:hover{
+    background-color: rgb(200, 195, 195);
+}
+#edit{
+    border-radius: 8px;
+    cursor: pointer;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    box-shadow: 3px 2px 2px #66FCF1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#edit:hover{
+    background-color: rgb(200, 195, 195);
+}
+
+.last{
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    display: flex;
+}
+.main2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-color: #000000;
+    /* background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-flowing-lines-background-picture-image_1360636.jpg"); */
+}
+
+.upd{
+    border-radius: 20px;
+    
+}
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-left: 20px;
+  }
+  
+  .box {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px #66FCF1;
+    min-width: 150px;
+    max-width: 400px;
+    /* height: 30px; */
+    
+  }
+  .box:hover{
+    box-shadow: 5px 5px 5px rgb(246, 6, 6) ;
+
+  }
+  
